@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetat e Mia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍝 Recetat e Mia</h1>
+
+        <div class="form-section">
+            <h2>Shto Recetë</h2>
+
+            <input type="text" id="recipeName" placeholder="Emri i recetës">
+
+            <textarea id="ingredients" placeholder="Përbërësit"></textarea>
+
+            <textarea id="instructions" placeholder="Udhëzimet"></textarea>
+
+            <button onclick="addRecipe()">Shto Recetën</button>
+        </div>
+
+        <h2 style="margin-top:30px;">📜 Lista e Recetave</h2>
+        <div id="recipeList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

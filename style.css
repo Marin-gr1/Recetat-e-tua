@@ -1,0 +1,68 @@
+body {
+    background: #ffe8e8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d44a4a;
+}
+
+.form-section {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffbebe;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ffb4b4;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #ff6b6b;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4d4d;
+}
+
+.recipe-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border-left: 6px solid #ff6b6b;
+}
+
+.delete-btn {
+    background: #ff3b3b;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 8px;
+    float: right;
+    cursor: pointer;
+}
